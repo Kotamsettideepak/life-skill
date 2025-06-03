@@ -2,7 +2,7 @@
 
 ## What is a CDN?
 
-A Content Delivery Network (CDN) is a network of geographically distributed servers that enhances the delivery of web content to end-users depending on their geographical proximity. CDNs increase performance, decrease latency, and enhance availability by caching content on edge servers near the users.
+A Content Delivery Network (CDN) is a group of servers located in different places that help deliver websites and online content faster to users based on where they are. CDNs make websites load quicker, reduce delays, and keep them available by storing copies of content on nearby servers.
 
 ---
 
@@ -27,8 +27,7 @@ When clients ask for content, rather than reaching out to the origin server each
 
 - All traffic is routed directly to the origin server.
 - High latency for remote users.
-- Sudden surge in load and potential server crashes during high traffic.
-- Point of failure if the origin server fails.
+- A sudden increase in traffic that might cause the server to slow down or crash.
 
 ### With CDN:
 
